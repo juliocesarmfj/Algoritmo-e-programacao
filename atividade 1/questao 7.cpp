@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main (){
-	char nome[30],m;
+	char nome[30];
 	float salario, horam;
 	int matricula,horast, sexo;
    
