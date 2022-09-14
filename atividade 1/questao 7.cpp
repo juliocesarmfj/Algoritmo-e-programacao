@@ -5,19 +5,19 @@ int main (){
 	int matricula,horast, sexo;
    
 	
-	printf("informe seu nome: ");
+	printf("Informe seu nome: ");
 	scanf ("%s]", &nome);
 	
-	printf("informe a sua matricula: ");
+	printf("Informe a sua matricula: ");
 	scanf ("%i", &matricula);
 	
-	printf("digite 1 para masculino\ndigite 2 para feminino\ninforme seu sexo: ");
+	printf("Digite 1 para masculino\nDigite 2 para feminino\ninforme seu sexo: ");
 	scanf("%i", &sexo);
 	
-	printf ("informe horas de trabalho no dia: ");
+	printf ("Informe horas de trabalho no dia: ");
 	scanf ("%i", &horast);
 	
-	printf ("informe o valor recebido por hora: ");
+	printf ("Informe o valor recebido por hora: ");
 	scanf ("%f", &horam);
 	
 	salario= (horast*30)*horam;
@@ -33,15 +33,15 @@ int main (){
     printf("\n");
     
     
-	printf("nome de usuario:%s\nmatricula:%i\n", nome, matricula);
+	printf("Nome de usuario:%s\nMatricula:%i\n", nome, matricula);
 	
 	switch (sexo){
 		
 		case 1:
-			printf("sexo: masculino");
+			printf("Sexo:Masculino");
 		break;
 		case 2:
-			printf("sexo: feminino");
+			printf("Sexo:Feminino");
 			
 		break;
 	}
