@@ -6,7 +6,7 @@ int main (){
    
 	
 	printf("Informe seu nome: ");
-	scanf ("%s]", &nome);
+	scanf ("%s", &nome);
 	
 	printf("Informe a sua matricula: ");
 	scanf ("%i", &matricula);
